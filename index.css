@@ -21,3 +21,22 @@ iframe{
 p{
     display:none;
 }
+.content-pdf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+}
+.width-pdf{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+embed{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+}
